@@ -18,3 +18,14 @@ public class GreetingUser extends HttpServlet {
         out.close();
     }
 }
+
+/*
+javac WebForm.java -classpath /usr/share/java/servlet-api.jar 
+sudo cp WebForm.class /usr/share/tomcat7-examples/examples/WEB-INF/classes/ 
+sudo cp WebForm.html /var/www
+cd /usr/share/tomcat7-examples/examples/WEB-INF
+sudo gedit web.xml
+create a new <servlet> entry
+create a new <servlet-mapping> entry
+*/
+
